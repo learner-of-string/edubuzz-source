@@ -1,4 +1,5 @@
-/* eslint-disable react/prop-types */
+import PropTypes from "prop-types";
+
 const Subjects = ({ fetchQna }) => {
   return (
     <div className="my-5">
@@ -18,8 +19,10 @@ const Subjects = ({ fetchQna }) => {
       </ul> */}
       {/* these will work after learning react-router-dom. But currently it will work only with some filter buttons*/}
 
-      <div className="flex justify-center gap-10">
-        <button className="btn btn-outline btn-accent">All QNA</button>
+      <div
+        className="flex justify-center gap-10 lg:gap-10 flex-wrap
+      "
+      >
         <button
           className="btn btn-outline btn-accent"
           onClick={() => fetchQna("Physics")}
@@ -38,9 +41,18 @@ const Subjects = ({ fetchQna }) => {
         >
           Higher Math
         </button>
+        <button
+          className="btn btn-outline btn-accent"
+          onClick={() => fetchQna("Biology")}
+        >
+          Biology
+        </button>
       </div>
     </div>
   );
+};
+Subjects.propTypes = {
+  fetchQna: PropTypes.func.isRequired,
 };
 
 export default Subjects;

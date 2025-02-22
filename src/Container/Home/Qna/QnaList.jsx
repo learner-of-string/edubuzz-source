@@ -1,16 +1,24 @@
-/* eslint-disable react/prop-types */
-const QnaList = ({ question, answer }) => {
-  console.log(question, answer);
+import PropTypes from "prop-types";
+
+const QnaList = ({ qna }) => {
+  console.log(qna);
 
   return (
-    <div className="collapse collapse-plus bg-base-200">
+    <div className="collapse collapse-plus bg-base-200 border-2">
       <input type="checkbox" />
-      <div className="collapse-title text-xl font-medium">{question}</div>
+      <div className="collapse-title text-xl font-medium">{qna.question}</div>
       <div className="collapse-content">
-        <p>{answer}</p>
+        <p>{qna.answer}</p>
       </div>
     </div>
   );
+};
+
+QnaList.propTypes = {
+  qna: PropTypes.shape({
+    question: PropTypes.string.isRequired,
+    answer: PropTypes.string.isRequired,
+  }).isRequired,
 };
 
 export default QnaList;
