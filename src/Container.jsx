@@ -6,7 +6,7 @@ const Container = () => {
   const [allQna, setAllQna] = useState([]);
 
   const fetchQna = async (jsonFileName) => {
-    fetch(`/jsonQNA/${jsonFileName}.json`)
+    fetch(`./jsonQNA/${jsonFileName}.json`)
       .then((res) => res.json())
       .then((data) => setAllQna(data));
   };
