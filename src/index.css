@@ -1,2 +1,34 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap");
+
+.font-hind-siliguri-light {
+  font-family: "Hind Siliguri", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.font-hind-siliguri-regular {
+  font-family: "Hind Siliguri", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-hind-siliguri-medium {
+  font-family: "Hind Siliguri", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.font-hind-siliguri-semibold {
+  font-family: "Hind Siliguri", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.font-hind-siliguri-bold {
+  font-family: "Hind Siliguri", serif;
+  font-weight: 700;
+  font-style: normal;
+}

@@ -4,6 +4,7 @@ import { useState } from "react";
 
 const Container = () => {
   const [allQna, setAllQna] = useState([]);
+  const [searchTerm, setSearchTerm] = useState("");
 
   const fetchQna = async (jsonFileName) => {
     fetch(`./jsonQNA/${jsonFileName}.json`)
@@ -12,11 +13,17 @@ const Container = () => {
   };
 
   // console.log(allQna.length);
+  console.log(searchTerm);
 
   return (
     <div className="m-5">
-      <Header></Header>
-      <Home fetchQna={fetchQna} allQna={allQna}></Home>
+      <Header searchTerm={searchTerm} onSearchTerm={setSearchTerm}></Header>
+      <Home
+        fetchQna={fetchQna}
+        allQna={allQna}
+        searchTerm={searchTerm}
+        onSearchTerm={setSearchTerm}
+      ></Home>
     </div>
   );
 };

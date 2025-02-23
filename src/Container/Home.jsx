@@ -1,19 +1,18 @@
+/* eslint-disable react/prop-types */
 import Subjects from "./Home/Subjects";
 import Qna from "./Home/Qna";
-import PropTypes from "prop-types";
 
-const Home = ({ fetchQna, allQna }) => {
+const Home = ({ fetchQna, allQna, searchTerm, onSearchTerm }) => {
   return (
     <div>
-      <Subjects fetchQna={fetchQna}></Subjects>
-      <Qna allQna={allQna}></Qna>
+      <Subjects
+        fetchQna={fetchQna}
+        onSearchTerm={onSearchTerm}
+        searchTerm={searchTerm}
+      ></Subjects>
+      <Qna allQna={allQna} searchTerm={searchTerm}></Qna>
     </div>
   );
-};
-
-Home.propTypes = {
-  fetchQna: PropTypes.func.isRequired,
-  allQna: PropTypes.array.isRequired,
 };
 
 export default Home;

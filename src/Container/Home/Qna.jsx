@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import QnaList from "./Qna/QnaList";
 
 const Qna = ({ allQna }) => {
-  console.log(allQna);
+  // console.log(allQna);
 
   if (allQna.length === 0) {
     return (
