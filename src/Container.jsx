@@ -13,7 +13,7 @@ const Container = () => {
   };
 
   // console.log(allQna.length);
-  console.log(searchTerm);
+  // console.log(searchTerm);
 
   return (
     <div className="m-5">

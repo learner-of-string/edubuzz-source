@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import QnaList from "./Qna/QnaList";
 
-const Qna = ({ allQna }) => {
+const Qna = ({ allQna, searchTerm }) => {
   // console.log(allQna);
 
   if (allQna.length === 0) {
@@ -28,18 +28,26 @@ const Qna = ({ allQna }) => {
   } else {
     return (
       <ul>
-        {allQna.map((QNA) => (
-          <li key={QNA.id} className="py-2">
-            <QnaList qna={QNA} />
-          </li>
-        ))}
+        {allQna.map((qna) =>
+          qna.question.toLowerCase().includes(searchTerm) ||
+          qna.answer.toLowerCase().includes(searchTerm) ? (
+            <li key={qna.id} className="py-2">
+              <QnaList qna={qna} />
+            </li>
+          ) : (
+            []
+          )
+        )}
       </ul>
     );
   }
+
+  // return <div>{searchedQna}</div>;
 };
 
 Qna.propTypes = {
   allQna: PropTypes.array.isRequired,
+  searchTerm: PropTypes.string.isRequired,
 };
 
 export default Qna;

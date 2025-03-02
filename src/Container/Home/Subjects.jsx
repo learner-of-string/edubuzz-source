@@ -47,6 +47,12 @@ const Subjects = ({ fetchQna }) => {
         >
           Biology
         </button>
+        <button
+          className="btn btn-outline btn-accent"
+          onClick={() => fetchQna("Others")}
+        >
+          Others
+        </button>
       </div>
     </div>
   );
