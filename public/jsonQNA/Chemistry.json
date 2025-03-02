@@ -12,5 +12,146 @@
         "paper": 2,
         "question": "পানির রাসায়নিক সংকেত কি?",
         "answer": "H<sub>2</sub>O"
+    },
+    {
+        "id":3,
+        "subject":"chemistry",
+        "paper": null,
+        "question": "বাংলাদেশের পানীয় জলে আর্সেনিকের প্রহনযোগ্য মাত্রা কত?",
+        "answer":"0.05 ppm"
+    },
+    {
+        "id":4,
+        "subject":"chemistry",
+        "paper": null,
+        "question": "N<sub>2</sub>+O<sub>2</sub> = 2NO কি ধরনের বিক্রিয়া?",
+        "answer":"তাপহারি বা Endothermic"
+    },
+    {
+        "id":5,
+        "subject":"chemistry",
+        "paper": null,
+        "question": "CO<sub>2</sub> একটি-",
+        "answer":"প্রধান গ্রিনহাউজ গ্যাস।"
+    },
+    {
+        "id":6,
+        "subject":"chemistry",
+        "paper": null,
+        "question": "ডাউ প্রণালীতে উৎপন্ন করা যায়-",
+        "answer":"ফেনল"
+    },
+    {
+        "id":7,
+        "subject":"chemistry",
+        "paper": null,
+        "question": "পচা মাছে গন্ধ হয় কেন?",
+        "answer":"অ্যামিন যৌগের উপস্থিতির কারনে।"
+    },
+    {
+        "id":8,
+        "subject":"chemistry",
+        "paper": null,
+        "question": "বর্জ্য রিসাইক্লিং করে প্রধানত কি সুফল পাওয়া যায়?",
+        "answer":"দূষন হ্রাস পায়।"
+    },
+    {
+        "id":9,
+        "subject":"chemistry",
+        "paper": null,
+        "question": "-CH<sub>3</sub> বেনজিন বলয়ে এটি কেমন নির্দেশক?",
+        "answer":"অর্থো-প্যারা"
+    },
+    {
+        "id":10,
+        "subject":"chemistry",
+        "paper": null,
+        "question": "এক আলোকবর্ষ  সমান কত কিলোমিটার?",
+        "answer":"9.4×10<sup>12</sup> কিলোমিটার।"
+    },
+    {
+        "id":11,
+        "subject":"chemistry",
+        "paper": null,
+        "question": "পৃথিবীতে প্রাণিকূলের অস্তিত্বের মূলে কোন রাসায়নিক প্রক্রিয়া অত্যাবশ্যক?",
+        "answer":"মাটিতে প্রাকৃতিক N-ফিক্সেশন।"
+    },
+    {
+        "id":12,
+        "subject":"chemistry",
+        "paper": null,
+        "question": "ইলেকট্রন হারানো কার বৈশিষ্ট?",
+        "answer":"বিজারক পদার্থের বৈশিষ্ট।"
+    }
+    ,
+    {
+        "id":13,
+        "subject":"chemistry",
+        "paper": null,
+        "question": "H<sub>2</sub>S + SO<sub>2</sub> → 2H<sub>2</sub>O + 3S এটি কি বিক্রিয়া?",
+        "answer":"এটি একটি সামঞ্জস্যতা(oxidation-reduction) বিক্রিয়া।"
+    },
+    {
+        "id":14,
+        "subject":"chemistry",
+        "paper": null,
+        "question": "এডিনিন(Adenine) কি ধরনের ক্ষার?",
+        "answer":"Purine base."
+    },
+    {
+        "id":15,
+        "subject":"chemistry",
+        "paper": null,
+        "question": "কোন দ্রবনের OH<sup>-</sup> আয়নের ঘনমাত্রা 3.5×10<sup>-4</sup>M হলে তার pH কত?",
+        "answer":"10.54"
+    },
+    {
+        "id":16,
+        "subject":"chemistry",
+        "paper": null,
+        "question": "10% Na<sub>2</sub>CO<sub>3</sub> দ্রবনের মোলারিটি কত?",
+        "answer":"0.94"
+    },
+    {
+        "id":17,
+        "subject":"chemistry",
+        "paper": null,
+        "question": "পাতিত পানি অ্যাসিড না ক্ষার?",
+        "answer":"এটা উভধর্মী যৌগ।"
+    },
+    {
+        "id":18,
+        "subject":"chemistry",
+        "paper": null,
+        "question": "মানবদেহে কোন ধাতুর আধিক্যে হিমোগ্লোবিনের উৎপাদন বাধাগ্রস্থ হয়?",
+        "answer":"ক্রোমিয়াম"
+    },
+    {
+        "id":19,
+        "subject":"chemistry",
+        "paper": null,
+        "question": "'N' কিসের প্রতীক?",
+        "answer":"পরিবেশ দূষকের প্রতীক।"
+    },
+    {
+        "id":20,
+        "subject":"chemistry",
+        "paper": null,
+        "question": "ল্যাকটিক অ্যাসিডে কি নাই?",
+        "answer":"নাইট্রোজেন নাই।"
+    },
+    {
+        "id":21,
+        "subject":"chemistry",
+        "paper": null,
+        "question": "35℃ পানিতে O<sub>2</sub> এর দ্রাব্যতা 2.3×10<sup>-4</sup>M হলে ppm এককে তা কত?",
+        "answer":"7.36"
+    },
+    {
+        "id":22,
+        "subject":"chemistry",
+        "paper": null,
+        "question": "বায়ূ-দুষক অ্যাসিড বৃষ্টীর কারন?",
+        "answer":"SO<sub>3</sub>"
     }
 ]
